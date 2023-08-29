@@ -1,91 +1,27 @@
-# Task Management Web Application
+# # Car Records Test Overview
 
-This is a full-stack web application for managing tasks. The application allows users to create, read, update, and delete tasks. It utilizes Node.js and Express for the backend, React for the frontend, and MongoDB for the database.
+I build a complete authentication system with JWT security protocols. Management system of card records with create, edit delete and search funtionality.
 
-## Table of Contents
+# # Features
 
-- [Premise](#premise)
-- [Task Description](#task-description)
-- [Technical Requirements](#technical-requirements)
-- [Bonus Features](#bonus-features)
-- [Evaluation Criteria](#evaluation-criteria)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
+You can create a task with create button and also delete and edit a task as well. From top navbar you can search from task names and also a filter to filter task by make.
 
-## Premise
+# # Funtionality
+# # Front-end
+I used React, Typescript and Material-UI to build this application. I used axios interceptors to build a complete authentication system. Used abort controllers to cancel unnecessory request to improve app performance and user experience.
 
-- It's okay to submit an incomplete project within the given time.
-- Bonus tasks are welcomed but not necessary for the completion of the challenge.
-- The challenge is focused on code quality aspects such as consistency, modularity, performance, and error handling.
+# # Back-end
+I used Node.js, Typescript for backend. I build to keep in mind about security standards and AWS. Dockerize everything for deployment on AWS.
 
-## Task Description
+# # Start-Application
 
-Your task is to create a full-stack web application for managing tasks. The application should allow users to perform the following actions:
+open you're terminal and type 
+``` docker compose up ```
 
-- Create a new task through an API endpoint.
-- Update an existing task through an API endpoint.
-- Delete a task through an API endpoint.
-- Retrieve a list of tasks through an API endpoint.
-- Implement user authentication and authorization for accessing the API endpoints.
-- Develop a secure API that protects against common web application attacks.
+# # Manual Setup
 
-On the frontend, the application should provide the following features:
+# # Backend
+To run you're backend manually you must have Node and mongoDB installed.
 
-- A form for creating a new task.
-- A table for displaying a list of tasks.
-- The ability to edit or delete tasks from the table.
-- A search feature to search for tasks by keyword.
-- The ability to filter tasks by status or priority.
-- Pagination for the table of tasks.
-
-The application should use a MongoDB database to store the tasks.
-
-## Technical Requirements
-
-To fulfill the task, please ensure the following technical requirements are met:
-
-- Use Node.js and Express to create the backend API endpoints.
-- Use React to create the frontend.
-- Use MongoDB to store the tasks.
-- Implement pagination for the task table.
-- Utilize a secure authentication and authorization method, such as JSON Web Tokens (JWT) or OAuth 2.0.
-- Implement secure coding practices and protect against common web application attacks, such as cross-site scripting (XSS) and SQL injection.
-- Use Git for version control and commit your changes to a public repository on GitHub.
-
-## Bonus Features
-
-Feel free to implement any of the following bonus features, although they are not necessary for completing the challenge:
-
-- Add the ability to assign tasks to different users.
-- Implement email notifications when a task is assigned or completed.
-- Add the ability to attach files to tasks.
-- Implement real-time updates using WebSockets.
-
-## Evaluation Criteria
-
-We will evaluate your solution based on the following criteria:
-
-- Technical proficiency: Does your solution meet the technical requirements and implement best practices for security and performance?
-- Code quality: Is your code well-organized, modular, and easy to read and understand?
-- User experience: Is the application easy to use, visually appealing, and responsive?
-- Creativity: Did you add any bonus features or creative touches to the application?
-- Documentation: Instructions on running the application, API docs, any challenges you faced, and solutions to the problem.
-
-## Getting Started
-
-To get started with the task management web application, follow the instructions below:
-
-### Prerequisites
-
-- Node.js (version 16.14.1)
-- MongoDB
-
-### Installation
-
-1. Clone the repository:
-   ```shell
-   git clone https://github.com/amir-debuug/task.git
-   ```
+MongoDB : ```https://www.mongodb.com/try/download/community```
+Node : ```https://nodejs.org/en```

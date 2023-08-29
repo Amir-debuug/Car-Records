@@ -8,7 +8,7 @@ services:
     container_name: app
     restart: always
     ports:
-      - 3000:3000
+      - 8080:8080
     env_file:
       - .env
     depends_on:
@@ -22,6 +22,19 @@ services:
       - 27017:27017
     volumes:
       - mongodb_data:/data/db
+
+  client:
+    image: node:16.14.1
+    command: sh -c "npm i --save && npm start"
+    ports:
+      - 3000:3000
+    working_dir: /client
+    environment:
+      - ./client/.env
+    volumes:
+      - ./client:/client
+    depends_on:
+      - app
 
 volumes:
   mongodb_data:

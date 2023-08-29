@@ -7,8 +7,8 @@ RUN chown -R node:node /home/node/app
 
 USER node
 WORKDIR /home/node/app
-RUN npm i
+RUN npm i --save
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD npm run watch
