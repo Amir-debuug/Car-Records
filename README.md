@@ -20,8 +20,24 @@ open you're terminal and type
 
 # # Manual Setup
 
-# # Backend
+# # Back-end
 To run you're backend manually you must have Node and mongoDB installed.
 
 MongoDB : ```https://www.mongodb.com/try/download/community```
 Node : ```https://nodejs.org/en```
+
+Simply go to you're terminal
+
+```npm install``` to add packages or node modules
+```npm start``` to run server
+
+# # Front-end
+
+To run you're frontend manually you must have Node installed.
+
+Node : ```https://nodejs.org/en```
+
+Simply go to you're terminal then go to client folder then
+
+```npm install``` or ```yarn``` to add packages or node modules
+```npm start``` or ```yarn start``` to run server
